@@ -1,0 +1,22 @@
+{
+  "name": "naked",
+  "version": "1.0.0",
+  "description": "Naked Boilerplate",
+  "main": "index.js",
+  "author": "Hassan Aly",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "standard && echo \"Change this with your test script\" && exit 1 "
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "standard": "*"
+  },
+    "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
